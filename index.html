@@ -1,66 +1,428 @@
 <!DOCTYPE html>
-<html lang="zh-CN" data-default-color-scheme="auto">
+<html lang="zh">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="/assets/favicon/favicon.ico" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no"
-    />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-
-    <meta name="theme-color" content="#2f4154" />
-    <meta name="author" content="景蓝Yurik" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <link rel="icon" href="assets/favicon/favicon.ico" />
     <meta
       name="keywords"
-      content="新视角,柳州高中,广西柳州高级中学,摄影,社团,New Vision,NV,LYJW"
+      content="新视角,柳州高中,广西柳州高级中学,摄影,社团,New Vision,NV,梁杨峻玮,光影无限,影摄未来"
     />
 
-    <meta name="description" content="爱原创 爱摄影 爱新视角" />
-
-    <title>新视角 New Vision</title>
-
-    <style>
-      body {
-        margin: 0 auto;
-        background: url(assets/img/bg/1.webp) no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-      }
-      .main {
-        display: flex;
-        /*实现垂直居中*/
-        align-items: center;
-        /*实现水平居中*/
-        justify-content: center;
-
-        text-align: justify;
-        height: 100vh;
-      }
-      .main img {
-        height: 7rem;
-        filter: invert(100%) sepia(2%) saturate(7%) hue-rotate(197deg)
-          brightness(104%) contrast(100%)
-          drop-shadow(5px 5px 19px rgba(0, 0, 0, 0.5));
-      }
-      @media only screen and (min-width: 1441px) {
-        .main img {
-          height: 7rem;
-        }
-      }
-
-      @media only screen and (max-width: 734px) {
-        .main img {
-          height: 7rem;
-        }
-      }
-    </style>
+    <meta
+      name="description"
+      content="新视角摄影社创立于2006年，16年的发展历程中一直致力于提高社员人文素养和艺术修养。现如今的“新视角”已成长为一个活跃度高、专业性强，在柳州市具有一定影响力的大型学生社团。“影像随心，感动常在，光影无限，影摄未来。”用镜头记录美好，定格时光，加入我们，和我们一起在柳高校园感受光与影的美妙。"
+    />
+    <title>新视角 New Vision | 光影无限 影摄未来</title>
   </head>
 
   <body>
-    <div class="main">
-      <img src="assets/img/nvnew.png" />
-    </div>
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary fixed-top nav-origin"
+      id="nav"
+      data-bs-theme="dark"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="//mtsmc.net">
+          <img
+            src="./assets/img/logo-white@1x.webp"
+            id="nav-logo"
+            alt="Logo"
+            width="auto"
+            height="35px"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="//newvision2006.cn"
+                >首页</a
+              >
+            </li>
+          </ul>
+          <a
+            id="navbar-QQ-btn"
+            class="d-flex btn btn-outline-light"
+            type="button"
+            onclick="copyQQToClipboard()"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+          >
+            <i class="bi bi-send"></i>官方QQ: 3160566361
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <section id="index-banner" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#index-banner"
+          data-bs-slide-to="0"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#index-banner"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#index-banner"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item" data-bs-interval="10000">
+          <img
+            src="./assets/img/banner/24_54_Pre.webp"
+            class="d-block"
+            alt=""
+            style="filter: brightness(70%)"
+          />
+          <div class="carousel-caption carousel-caption-middle d-block">
+            <h1>2024 年五四文艺汇演（即将到来）</h1>
+            <p>2024 年 5 月 17 日周五</p>
+          </div>
+        </div>
+
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="./assets/img/banner/2.webp" class="d-block" alt="" />
+          <div class="carousel-caption carousel-caption-middle d-block">
+            <h1>光影无限 影摄未来</h1>
+            <p>
+              用镜头记录美好，定格时光，加入我们，和我们一起在柳高校园感受光与影的美妙
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="10000">
+          <img
+            src="./assets/img/banner/Grade22_Poem.webp"
+            class="d-block"
+            alt=""
+            style="filter: brightness(70%)"
+          />
+          <div class="carousel-caption carousel-caption-middle d-block">
+            <h1>春诵夏弦 诗意校园</h1>
+            <p>
+              2024 年 2022 级 原创诗会已完美谢幕，感谢所有同学与老师的参与。
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#index-banner"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#index-banner"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+
+    <section
+      class="modal fade"
+      id="myModal"
+      tabindex="-1"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-success fw-bold" id="myModalLabel">
+              复制成功
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="text-center text-success fw-bold display-1">
+              <i class="bi bi-check2-circle"></i>
+            </div>
+            <br />
+            你已成功复制新视角官方 QQ 号，使用QQ添加好友即可获取最新状态
+            <br />
+
+            如果没有自动复制成功，可以复制此处的号码：3160566361
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-dismiss="modal"
+            >
+              明白了！
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3"></div>
+
+    <section class="container what py-5">
+      <div class="row px-4">
+        <div class="col-md-6 d-flex align-items-center">
+          <div class="mx-auto">
+            <img
+              src="assets/img/icon@512px.webp"
+              alt="Image"
+              class="img-fluid what-logo"
+            />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h2>什么是新视角 New Vision</h2>
+          <p>
+            新视角摄影社创立于2006年，16年的发展历程中一直致力于提高社员人文素养和艺术修养。现如今的“新视角”已成长为一个活跃度高、专业性强，在柳州市具有一定影响力的大型学生社团。“影像随心，感动常在，光影无限，影摄未来。”用镜头记录美好，定格时光，加入我们，和我们一起在柳高校园感受光与影的美妙。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container py-5">
+      <div class="pb-2 border-bottom">
+        <h2 class="fw-bold">管理团队</h2>
+      </div>
+
+      <div
+        class="row row-cols-1 row-cols-md-2 row-cols-lg-3 my-4 text-center"
+        id="person"
+      >
+        <div class="col-lg-4">
+          <img
+            class="rounded-circle"
+            src="https://q1.qlogo.cn/g?b=qq&amp;nk=2927761562&amp;s=640"
+            alt="img"
+          />
+          <h2 class="fw-normal">梁杨峻玮</h2>
+          <p class="text-body-secondary">新视角 2022 级社长</p>
+        </div>
+
+        <div class="col-lg-4">
+          <img
+            class="rounded-circle"
+            src="https://q1.qlogo.cn/g?b=qq&nk=1877128003&s=640"
+            alt="img"
+          />
+          <h2 class="fw-normal">蒲燕慧静</h2>
+          <p class="text-body-secondary">新视角 2022 级副社长</p>
+        </div>
+
+        <div class="col-lg-4">
+          <img
+            class="rounded-circle"
+            src="https://q1.qlogo.cn/g?b=qq&nk=3055755673&s=640"
+            alt="img"
+          />
+          <h2 class="fw-normal">莫镇桦</h2>
+          <p class="text-body-secondary">新视角 2022 级副社长</p>
+        </div>
+
+        <div class="col-lg-4">
+          <img
+            class="rounded-circle"
+            src="https://q1.qlogo.cn/g?b=qq&nk=2716280478&s=640"
+            alt="img"
+          />
+          <h2 class="fw-normal">欧春婷</h2>
+          <p class="text-body-secondary">新视角 2022 级社长助理</p>
+        </div>
+
+        <div class="col-lg-4">
+          <img
+            class="rounded-circle"
+            src="https://q1.qlogo.cn/g?b=qq&nk=2267105537&s=640"
+            alt="img"
+          />
+          <h2 class="fw-normal">朱思源</h2>
+          <p class="text-body-secondary">新视角 2022 级摄影部部长</p>
+        </div>
+
+        <div class="col-lg-4">
+          <img
+            class="rounded-circle"
+            src="https://q1.qlogo.cn/g?b=qq&nk=2455014341&s=640"
+            alt="img"
+          />
+          <h2 class="fw-normal">陈嘉怡</h2>
+          <p class="text-body-secondary">新视角 2022 级摄影部副部长</p>
+        </div>
+
+        <div class="col-lg-4">
+          <img
+            class="rounded-circle"
+            src="https://q1.qlogo.cn/g?b=qq&nk=26674770648&s=640"
+            alt="img"
+          />
+          <h2 class="fw-normal">陈高辉</h2>
+          <p class="text-body-secondary">新视角 2022 级后期部部长</p>
+        </div>
+
+        <div class="col-lg-4">
+          <img
+            class="rounded-circle"
+            src="https://q1.qlogo.cn/g?b=qq&nk=2640400179&s=640"
+            alt="img"
+          />
+          <h2 class="fw-normal">张洛霖</h2>
+          <p class="text-body-secondary">新视角 2022 级后期部副部长</p>
+        </div>
+
+        <div class="col-lg-4">
+          <img
+            class="rounded-circle"
+            src="https://q1.qlogo.cn/g?b=qq&nk=1379460196&s=640"
+            alt="img"
+          />
+          <h2 class="fw-normal">邓一诺</h2>
+          <p class="text-body-secondary">新视角 2022 级模特部部长</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="container">
+      <div
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pt-5 mt-5 border-top"
+      >
+        <div class="col mb-3">
+          <a
+            href="//"
+            class="d-flex align-items-center mb-3 text-decoration-none"
+          >
+            <img
+              class="img-fluid footer-logo"
+              src="assets/img/logo-black@1x.webp"
+              width="120px"
+              height="auto"
+            />
+          </a>
+          <h5 class="text-center">光影无限 影摄未来</h5>
+        </div>
+
+        <div class="col mb-3"></div>
+
+        <div class="col mb-3">
+          <h5>站点</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="" class="nav-link p-0 text-body-secondary">主站</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a
+                href="//lan.newvision2006.cn"
+                class="nav-link p-0 text-body-secondary"
+                >校园内网主站</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="col mb-6">
+          <h5>联系我们</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a
+                class="nav-link p-0 text-body-secondary"
+                href=""
+                onclick="copyQQToClipboard()"
+                data-bs-toggle="modal"
+                data-bs-target="#myModal"
+                >官方QQ</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a
+                href="mailto:newvision@newvision2006.cn"
+                class="nav-link p-0 text-body-secondary"
+                >邮箱 newvision@newvision2006.cn</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copyright text-center pb-5 text-body-secondary">
+        <small>
+          <p>
+            友情连接：
+            <a
+              class="text-decoration-none text-reset"
+              href="//jyj.liuzhou.gov.cn/zwgk/fdzdgknr/jgzn/jsxx/202008/t20200824_1945975.shtml"
+              target="_blank"
+            >
+              柳州高中
+            </a>
+            &nbsp;
+            <a
+              class="text-decoration-none text-reset"
+              href="//yurik.cafe"
+              target="_blank"
+            >
+              Yurik
+            </a>
+          </p>
+          <p>
+            Copyright © 2006~2024
+            <a
+              class="text-decoration-none text-reset"
+              href="//newvision2006.cn"
+              target="_blank"
+              >New Vision</a
+            >
+            All rights reserved.
+            <br />
+            Operated by New Vision Web Group.
+            <br />
+            <i class="bi bi-git"></i>Version: {{GIT_VERSION}}
+          </p>
+        </small>
+      </div>
+    </footer>
+
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/index.js"></script>
   </body>
 </html>
