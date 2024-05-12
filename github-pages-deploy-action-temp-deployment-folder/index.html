@@ -251,12 +251,26 @@
                 >校园内网主站</a
               >
             </li>
+            <li class="nav-item mb-2">
+              <a
+                href="./assets/docs/Manual.pdf"
+                class="nav-link p-0 text-body-secondary"
+                >站点管理手册(PDF)</a
+              >
+            </li>
           </ul>
         </div>
 
         <div class="col mb-6">
           <h5>联系我们</h5>
           <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a
+                href="//github.com/newvision2006/"
+                class="nav-link p-0 text-body-secondary"
+                >GitHub</a
+              >
+            </li>
             <li class="nav-item mb-2">
               <a
                 class="nav-link p-0 text-body-secondary"
@@ -310,7 +324,7 @@
             <br />
             Operated by New Vision Web Group.
             <br />
-            <i class="bi bi-git"></i>Version: 3dffce6
+            <i class="bi bi-git"></i>Version: f29c51a
           </p>
         </small>
       </div>
@@ -339,9 +353,9 @@
                 isActive +
                 '" data-bs-interval="10000"><img src="' +
                 result[i]["background"] +
-                '" class="d-block" style="filter: brightness(' +
-                result[i]["brightness"] +
-                ')" /> <div class="carousel-caption carousel-caption-middle d-block"> <h1>' +
+                '" class="d-block" style="' +
+                result[i]["style"] +
+                '" /> <div class="carousel-caption carousel-caption-middle d-block"> <h1>' +
                 result[i]["title"] +
                 "</h1> <p>" +
                 result[i]["subtitle"] +
