@@ -22,7 +22,7 @@
   {
     "title": "探索新视界",
     "subtitle": "新视角官网正式上线",
-    "background": "./assets/img/banner/1.webp?v=1.1",
+    "background": "./assets/img/banner/1.webp",
     "brightness": "70%",
     "startup": false
   },
