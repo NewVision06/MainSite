@@ -20,6 +20,13 @@
     "startup": true
   },
   {
+    "title": "探索新视界",
+    "subtitle": "新视角官网正式上线",
+    "background": "./assets/img/banner/1.webp",
+    "brightness": "70%",
+    "startup": false
+  },
+  {
     "title": "春诵夏弦 诗意校园",
     "subtitle": "2024 年 2022 级 原创诗会已完美谢幕，感谢所有同学与老师的参与",
     "background": "./assets/img/banner/Grade22_Poem.webp",
