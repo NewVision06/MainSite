@@ -1,36 +1,36 @@
 [
   {
-    "title": "2024 年五四文艺汇演（即将到来）",
-    "subtitle": "2024 年 5 月 17 日周五",
-    "background": "./assets/img/banner/24_54_Pre.webp",
-    "brightness": "70%",
-    "has_button": false,
-    "button_text": "查看回放",
-    "button_link": "https://newvision2006.cn",
-    "startup": false
-  },
-  {
-    "title": "光影无限 影摄未来",
-    "subtitle": "用镜头记录美好，定格时光，加入我们，和我们一起在柳高校园感受光与影的美妙",
-    "background": "./assets/img/banner/2.webp",
-    "brightness": "100%",
+    "title": "星火燎华夏 词赋颂青子矜",
+    "subtitle": "2024 年五四文艺汇演即将开始",
+    "background": "./assets/img/banner/54Main-min.webp",
+    "style": "filter: brightness(80%) blur(8px)",
     "has_button": false,
     "button_text": "查看回放",
     "button_link": "https://newvision2006.cn",
     "startup": true
   },
   {
+    "title": "光影无限 影摄未来",
+    "subtitle": "用镜头记录美好，定格时光，加入我们，和我们一起在柳高校园感受光与影的美妙",
+    "background": "./assets/img/banner/2.webp",
+    "style": "filter: brightness(100%)",
+    "has_button": false,
+    "button_text": "查看回放",
+    "button_link": "https://newvision2006.cn",
+    "startup": false
+  },
+  {
     "title": "探索新视界",
     "subtitle": "新视角官网正式上线",
     "background": "./assets/img/banner/1.webp?v=1.1",
-    "brightness": "70%",
+    "style": "filter: brightness(70%)",
     "startup": false
   },
   {
     "title": "春诵夏弦 诗意校园",
     "subtitle": "2024 年 2022 级 原创诗会已完美谢幕，感谢所有同学与老师的参与",
     "background": "./assets/img/banner/Grade22_Poem.webp",
-    "brightness": "70%",
+    "style": "filter: brightness(70%)",
     "has_button": false,
     "button_text": "查看回放",
     "button_link": "https://newvision2006.cn",
