@@ -144,96 +144,6 @@
     margin-right: .5rem;
 }
 
-#pic-1 {
-    background-image: url('../img/rlj.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#pic-2 {
-    background-image: url('../img/jt.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#pic-3 {
-    background-image: url('../img/dt.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#museum {
-    background-image: url('../img/qyg.jpg');
-    background-size: cover;
-    background-position: left;
-    background-repeat: no-repeat;
-}
-
-#khl {
-    background-image: url('../img/khl.png');
-    background-size: cover;
-    background-position: left;
-    background-repeat: no-repeat;
-}
-
-#satellite {
-    background-image: url('../img/bjl.jpg');
-    background-size: cover;
-    background-position: left;
-    background-repeat: no-repeat;
-}
-
-#wiki {
-    background-image: url('../img/boat.png');
-    background-size: cover;
-    background-position: left;
-    background-repeat: no-repeat;
-}
-
-#qq {
-    background-image: url('../img/fc.jpg');
-    background-size: cover;
-    background-position: left;
-    background-repeat: no-repeat;
-}
-
-#Github {
-    background-image: url('../img/gyq.jpg');
-    background-size: cover;
-    background-position: left;
-    background-repeat: no-repeat;
-}
-
-#report {
-    background-image: url('../img/gyq2.jpg');
-    background-size: cover;
-    background-position: left;
-    background-repeat: no-repeat;
-}
-
-#mail {
-    background-image: url('../img/yl.jpg');
-    background-size: cover;
-    background-position: left;
-    background-repeat: no-repeat;
-}
-
-#bz {
-    background-image: url('../img/bz.png');
-    background-size: cover;
-    background-position: left;
-    background-repeat: no-repeat;
-}
-
-#weibo {
-    background-image: url('../img/wb.png');
-    background-size: cover;
-    background-position: left;
-    background-repeat: no-repeat;
-}
 
 .link-card::after {
     width: 100%;
@@ -251,15 +161,8 @@
     z-index: 2;
 }
 
-#person img {
+#person img,#person rect {
     width: 140px;
     height: 140px;
     margin-bottom: 10px;
-}
-
-#qa {
-    background-image: url('../img/qa-bg.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }

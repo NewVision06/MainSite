@@ -17,6 +17,9 @@
       content="新视角摄影社创立于2006年，16年的发展历程中一直致力于提高社员人文素养和艺术修养。现如今的“新视角”已成长为一个活跃度高、专业性强，在柳州市具有一定影响力的大型学生社团。“影像随心，感动常在，光影无限，影摄未来。”用镜头记录美好，定格时光，加入我们，和我们一起在柳高校园感受光与影的美妙。"
     />
     <title>新视角 New Vision | 光影无限 影摄未来</title>
+    <script>
+      team_grade = 2022;
+    </script>
   </head>
 
   <body>
@@ -26,7 +29,7 @@
       data-bs-theme="dark"
     >
       <div class="container">
-        <a class="navbar-brand" href="//mtsmc.net">
+        <a class="navbar-brand" href="">
           <img
             src="./assets/img/logo-white@1x.webp"
             id="nav-logo"
@@ -73,68 +76,9 @@
     </nav>
 
     <section id="index-banner" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#index-banner"
-          data-bs-slide-to="0"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#index-banner"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-          class="active"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#index-banner"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div>
+      <div class="carousel-indicators" id="slides"></div>
 
-      <div class="carousel-inner">
-        <div class="carousel-item" data-bs-interval="10000">
-          <img
-            src="./assets/img/banner/24_54_Pre.webp"
-            class="d-block"
-            alt=""
-            style="filter: brightness(70%)"
-          />
-          <div class="carousel-caption carousel-caption-middle d-block">
-            <h1>2024 年五四文艺汇演（即将到来）</h1>
-            <p>2024 年 5 月 17 日周五</p>
-          </div>
-        </div>
-
-        <div class="carousel-item active" data-bs-interval="10000">
-          <img src="./assets/img/banner/2.webp" class="d-block" alt="" />
-          <div class="carousel-caption carousel-caption-middle d-block">
-            <h1>光影无限 影摄未来</h1>
-            <p>
-              用镜头记录美好，定格时光，加入我们，和我们一起在柳高校园感受光与影的美妙
-            </p>
-          </div>
-        </div>
-
-        <div class="carousel-item" data-bs-interval="10000">
-          <img
-            src="./assets/img/banner/Grade22_Poem.webp"
-            class="d-block"
-            alt=""
-            style="filter: brightness(70%)"
-          />
-          <div class="carousel-caption carousel-caption-middle d-block">
-            <h1>春诵夏弦 诗意校园</h1>
-            <p>
-              2024 年 2022 级 原创诗会已完美谢幕，感谢所有同学与老师的参与。
-            </p>
-          </div>
-        </div>
-      </div>
+      <div class="carousel-inner" id="carousel-main"></div>
       <button
         class="carousel-control-prev"
         type="button"
@@ -213,8 +157,10 @@
         </div>
         <div class="col-md-6">
           <h2>什么是新视角 New Vision</h2>
-          <p>
-            新视角摄影社创立于2006年，16年的发展历程中一直致力于提高社员人文素养和艺术修养。现如今的“新视角”已成长为一个活跃度高、专业性强，在柳州市具有一定影响力的大型学生社团。“影像随心，感动常在，光影无限，影摄未来。”用镜头记录美好，定格时光，加入我们，和我们一起在柳高校园感受光与影的美妙。
+          <p id="simple_description" class="placeholder-glow">
+            <span class="placeholder col-12"></span
+            ><span class="placeholder col-12"></span>
+            <span class="placeholder col-12"></span>
           </p>
         </div>
       </div>
@@ -232,91 +178,41 @@
         <div class="col-lg-4">
           <img
             class="rounded-circle"
-            src="https://q1.qlogo.cn/g?b=qq&amp;nk=2927761562&amp;s=640"
+            src="assets/img/placeholder.jpg"
             alt="img"
           />
-          <h2 class="fw-normal">梁杨峻玮</h2>
-          <p class="text-body-secondary">新视角 2022 级社长</p>
+          <h2 class="fw-normal placeholder-glow">
+            <span class="placeholder col-7"></span>
+          </h2>
+          <p class="text-body-secondary placeholder-glow">
+            <span class="placeholder col-5"></span>
+          </p>
         </div>
-
         <div class="col-lg-4">
           <img
             class="rounded-circle"
-            src="https://q1.qlogo.cn/g?b=qq&nk=1877128003&s=640"
+            src="assets/img/placeholder.jpg"
             alt="img"
           />
-          <h2 class="fw-normal">蒲燕慧静</h2>
-          <p class="text-body-secondary">新视角 2022 级副社长</p>
+          <h2 class="fw-normal placeholder-glow">
+            <span class="placeholder col-7"></span>
+          </h2>
+          <p class="text-body-secondary placeholder-glow">
+            <span class="placeholder col-5"></span>
+          </p>
         </div>
-
         <div class="col-lg-4">
           <img
             class="rounded-circle"
-            src="https://q1.qlogo.cn/g?b=qq&nk=3055755673&s=640"
+            src="assets/img/placeholder.jpg"
             alt="img"
           />
-          <h2 class="fw-normal">莫镇桦</h2>
-          <p class="text-body-secondary">新视角 2022 级副社长</p>
-        </div>
-
-        <div class="col-lg-4">
-          <img
-            class="rounded-circle"
-            src="https://q1.qlogo.cn/g?b=qq&nk=2716280478&s=640"
-            alt="img"
-          />
-          <h2 class="fw-normal">欧春婷</h2>
-          <p class="text-body-secondary">新视角 2022 级社长助理</p>
-        </div>
-
-        <div class="col-lg-4">
-          <img
-            class="rounded-circle"
-            src="https://q1.qlogo.cn/g?b=qq&nk=2267105537&s=640"
-            alt="img"
-          />
-          <h2 class="fw-normal">朱思源</h2>
-          <p class="text-body-secondary">新视角 2022 级摄影部部长</p>
-        </div>
-
-        <div class="col-lg-4">
-          <img
-            class="rounded-circle"
-            src="https://q1.qlogo.cn/g?b=qq&nk=2455014341&s=640"
-            alt="img"
-          />
-          <h2 class="fw-normal">陈嘉怡</h2>
-          <p class="text-body-secondary">新视角 2022 级摄影部副部长</p>
-        </div>
-
-        <div class="col-lg-4">
-          <img
-            class="rounded-circle"
-            src="https://q1.qlogo.cn/g?b=qq&nk=26674770648&s=640"
-            alt="img"
-          />
-          <h2 class="fw-normal">陈高辉</h2>
-          <p class="text-body-secondary">新视角 2022 级后期部部长</p>
-        </div>
-
-        <div class="col-lg-4">
-          <img
-            class="rounded-circle"
-            src="https://q1.qlogo.cn/g?b=qq&nk=2640400179&s=640"
-            alt="img"
-          />
-          <h2 class="fw-normal">张洛霖</h2>
-          <p class="text-body-secondary">新视角 2022 级后期部副部长</p>
-        </div>
-
-        <div class="col-lg-4">
-          <img
-            class="rounded-circle"
-            src="https://q1.qlogo.cn/g?b=qq&nk=1379460196&s=640"
-            alt="img"
-          />
-          <h2 class="fw-normal">邓一诺</h2>
-          <p class="text-body-secondary">新视角 2022 级模特部部长</p>
+          <h2 class="fw-normal placeholder-glow">
+            <span class="placeholder col-7"></span>
+          </h2>
+          <p class="text-body-secondary placeholder-glow">
+            <span class="placeholder col-5"></span>
+          </p>
         </div>
       </div>
     </section>
@@ -328,7 +224,7 @@
         <div class="col mb-3">
           <a
             href="//"
-            class="d-flex align-items-center mb-3 text-decoration-none"
+            class="d-flex justify-content-center align-items-center mb-3 text-decoration-none"
           >
             <img
               class="img-fluid footer-logo"
@@ -373,9 +269,9 @@
             </li>
             <li class="nav-item mb-2">
               <a
-                href="mailto:newvision@newvision2006.cn"
+                href="mailto:hi@newvision2006.cn"
                 class="nav-link p-0 text-body-secondary"
-                >邮箱 newvision@newvision2006.cn</a
+                >邮箱 hi@newvision2006.cn</a
               >
             </li>
           </ul>
@@ -385,7 +281,7 @@
       <div class="copyright text-center pb-5 text-body-secondary">
         <small>
           <p>
-            友情连接：
+            友情链接：
             <a
               class="text-decoration-none text-reset"
               href="//jyj.liuzhou.gov.cn/zwgk/fdzdgknr/jgzn/jsxx/202008/t20200824_1945975.shtml"
@@ -424,5 +320,114 @@
     <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/index.js"></script>
+    <script>
+      function carousel() {
+        requestUrl = "./_data/carousel.json";
+
+        fetch(requestUrl)
+          .then((response) => response.json())
+          .then((result) => {
+            pic_code = "";
+            button_code = "";
+            for (i = 0; i < result.length; i++) {
+              isActive = "";
+              if (result[i]["startup"]) {
+                isActive = "active";
+              }
+              template =
+                '<div class="carousel-item ' +
+                isActive +
+                '" data-bs-interval="10000"><img src="' +
+                result[i]["background"] +
+                '" class="d-block" style="filter: brightness(' +
+                result[i]["brightness"] +
+                ')" /> <div class="carousel-caption carousel-caption-middle d-block"> <h1>' +
+                result[i]["title"] +
+                "</h1> <p>" +
+                result[i]["subtitle"] +
+                "</p>";
+
+              if (result[i]["has_button"]) {
+                template =
+                  template +
+                  ' <a href="' +
+                  result[i]["button_link"] +
+                  '" target="_blank" class="btn btn-outline-light btn-sm" >' +
+                  result[i]["button_text"] +
+                  "</a> ";
+              }
+
+              button_template =
+                '<button type="button" data-bs-target="#index-banner" data-bs-slide-to="' +
+                i +
+                '" aria-current="true" aria-label="Slide ' +
+                (i + 1) +
+                '" class="' +
+                isActive +
+                '" ></button>';
+
+              template = template + "</div> </div>";
+
+              button_code = button_code + button_template;
+
+              pic_code = pic_code + template;
+            }
+
+            document.getElementById("carousel-main").innerHTML = pic_code;
+            document.getElementById("slides").innerHTML = button_code;
+            console.log(html_code + "111");
+          })
+          .catch((error) => {});
+      }
+
+      function team_list() {
+        requestUrl = "./_data/team/" + team_grade + ".json";
+
+        fetch(requestUrl)
+          .then((response) => response.json())
+          .then((result) => {
+            title = "新视角 " + result["grade"] + " 级";
+            member_list = result["data"];
+            html_code = "";
+            for (i = 0; i < member_list.length; i++) {
+              template =
+                '<div class="col-lg-4"><img class="rounded-circle" src="https://q1.qlogo.cn/g?b=qq&amp;nk=' +
+                member_list[i]["qid"] +
+                '&amp;s=640" alt="img"/> <h2 class="fw-normal">' +
+                member_list[i]["name"] +
+                '</h2> <p class="text-body-secondary">' +
+                title +
+                member_list[i]["role"] +
+                "</p> </div>";
+              html_code = html_code + template;
+            }
+
+            console.log(html_code);
+
+            document.getElementById("person").innerHTML = html_code;
+          })
+          .catch((error) => {});
+      }
+
+      function data() {
+        requestUrl = "./_data/data.json";
+
+        fetch(requestUrl)
+          .then((response) => response.json())
+          .then((result) => {
+            document.getElementById("simple_description").innerText =
+              result["description"];
+            document
+              .getElementById("simple_description")
+              .classList.remove("placeholder-glow");
+            console.log(result);
+          })
+          .catch((error) => {});
+      }
+
+      team_list();
+      carousel();
+      data();
+    </script>
   </body>
 </html>
